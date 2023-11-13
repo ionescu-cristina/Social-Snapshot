@@ -16,9 +16,33 @@ To install and set up the project, follow these steps:
 
 - git clone https://github.com/ionescu-cristina/Social-Snapshot.git
 - cd Social-Snapshot
+
+
+## Database Configuration
+- After renaming .env.example to .env, open the .env file and update the database settings to match your created database (in this case, socialsnapshot).
+- The standard settings for a MySQL database would look like this:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=socialsnapshot
+DB_USERNAME=root
+DB_PASSWORD=
+
+- Adjust DB_USERNAME and DB_PASSWORD according to your database configuration.
+
+## Run in cmd
 - composer install
 - npm install
 - npm run dev
+
+## Running Migrations
+
+php artisan migrate
+
+## Generating Application Key
+
+php artisan key:generate
 
 ## Usage
 To run the application, use:
