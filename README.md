@@ -4,7 +4,7 @@
 SocialStream is an advanced platform that enables users to view and filter social media posts.
 Built with Laravel and Vue.js, this application offers a user-friendly interface for exploring content from social networks like Facebook and Twitter.
 
-![Screenshot of SocialStream](images/screenshot-social-snapshot.png)
+![Screenshot of SocialStream](public/images/screenshot-social-snapshot.png)
 
 ## Technologies Used
 - Laravel
@@ -14,11 +14,11 @@ Built with Laravel and Vue.js, this application offers a user-friendly interface
 ## Installation and Setup
 To install and set up the project, follow these steps:
 
-git clone https://github.com/ionescu-cristina/Social-Snapshot.git
-cd Social-Snapshot
-composer install
-npm install
-npm run dev
+- git clone https://github.com/ionescu-cristina/Social-Snapshot.git
+- cd Social-Snapshot
+- composer install
+- npm install
+- npm run dev
 
 ## Usage
 To run the application, use:
